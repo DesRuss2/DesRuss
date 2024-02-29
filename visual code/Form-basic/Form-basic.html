@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Form Basic dari Aliansi Neilvent & Tristan.</h1>
+<form action="" method="get" enctype="multipart/form-data">
+<label for="nama">Nama</label>
+<input type="number" name="nama" autofocus autocomplete="off" placeholder="Isikan nama anda" required id="nama">
+<br>
+<br>
+<label for="email">Email</label>
+<input type="email" name="email" id="email" maxlength="100" placeholder="Isikan email anda" value="bghotang@gmail.com">
+<br>
+
+<br>
+<label for="password">Password</label>
+<input type="password" name="password" id="password" placeholder="Isikan password anda" minlength="6">
+<br>
+<br>
+<label>Jenis Kelamin</label>
+<input type="radio" value="Laki" name="jk" id="Laki"><label for="Laki">Laki-laki</label>
+<input type="radio" value="Perempuan" name="jk" id="Perempuan"><label for="Perempuan">Perempuan</label>
+<br>
+<br>
+<label for="ttl">Tanggal Lahir</label>
+<input type="date" id="ttl">
+<br>
+<br>
+<p>hobi</p>
+<input type="checkbox" name="hobi" id="ngoding"><label for="ngoding">Ngoding</label>
+<input type="checkbox" name="hobi" id="desain"><label for="desain">Desain</label>
+<br>
+<br>
+<p>Foto Profil</p>
+<input type="file" multiple>
+<br>
+<br>
+<label for="agama">Agama</label>
+<br>
+<select id="agama" multiple required>
+<option value="a" selected>A</option>
+<option value="b">B</option>
+<option>C</option>
+<option>D</option>
+</select>
+<br><br>
+<label for="alamat">alamat</label>
+<br>
+<textarea name="alamat" id="alamat" placeholder="Isi alamat anda" rows="3"></textarea>
+<br>
+<br>
+<button type="submit">Kirim</button>
+<button type="reset">Reset</button>
+<button type="button">Button</button>
+</form>
+</body>
+</html>

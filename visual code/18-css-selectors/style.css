@@ -1,0 +1,34 @@
+h1, .special {
+color: brown;
+}
+
+a.link{
+    background-color: aqua;
+}
+
+p{
+    background-color: aqua;
+}
+
+a:hover{
+    color: blueviolet;
+}s
+
+p.Last-description:hover{
+background-color: aquamarine;
+color: rgb(0, 255, 85);
+
+}
+
+p#special::first-line {
+    background-color: rgb(255, 0, 170);
+    color: black;
+}
+
+article > p{
+     background-color: yellow;
+}
+
+h1~p{
+    font-weight: bold ;
+}

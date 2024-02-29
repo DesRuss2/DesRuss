@@ -1,0 +1,10 @@
+body * { border: 3px solid red; }
+h1 + a { display: block; }
+
+h1, a.link {
+  width: 350%;
+  height: 150px;
+  padding: 50px;
+  margin: 10px;
+  display: inline-block;
+}
